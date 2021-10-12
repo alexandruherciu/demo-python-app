@@ -1,0 +1,13 @@
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# tests and coverage
+*.pytest_cache
+.coverage
+
+# venv
+.venv
+
+# other
+.DS_Store
