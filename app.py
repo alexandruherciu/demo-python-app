@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def default_route():
-    return 'Factorial App!'
+    return 'App Calculates Factorial! Give /factorial/number'
 
 
 @app.route('/factorial/<int:factorial_number>')
